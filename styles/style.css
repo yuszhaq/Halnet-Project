@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap");
+*,
+html,
+body {
+  font-family: "Space Grotesk", "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+main .hero-section {
+  position: relative;
+  width: 100%;
+}
+main .hero-section .hero-bg {
+  display: block;
+  width: 100%;
+}
+main .hero-section nav {
+  position: absolute;
+  top: 2%;
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .hero-section nav .nav-menu {
+  display: flex;
+  gap: 3rem;
+}
+main .hero-section nav .nav-menu a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+main .hero-section nav .nav-button button {
+  padding: 0.5rem;
+}
+main .hero-section .hero-comment {
+  position: absolute;
+  bottom: 26%;
+  left: 14%;
+  width: 45rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .hero-section .hero-comment h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+main .hero-section .hero-comment p {
+  width: 40rem;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+}
+main .hero-section .hero-comment .hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+main .hero-section .hero-comment .hero-buttons button {
+  padding: 1rem;
+  color: white;
+  font-weight: 500;
+}
+main .hero-section .hero-comment .hero-buttons button:nth-child(1) {
+  background-color: #f1662b;
+}
+main .hero-section .hero-comment .hero-buttons button:nth-child(2) {
+  background-color: #191919;
+}/*# sourceMappingURL=style.css.map */
