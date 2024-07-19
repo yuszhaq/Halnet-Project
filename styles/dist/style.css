@@ -164,13 +164,13 @@ main .quote-section {
   height: 100vh;
   width: 100%;
   position: relative;
-  padding: 10rem 0;
+  padding: 5rem 0;
   background-color: #0c0a15;
   display: grid;
   align-items: center;
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15rem;
+  gap: 10rem;
 }
 main .quote-section .quote {
   padding: 2rem;
@@ -221,4 +221,31 @@ main .quote-section .quote-message button {
   font-weight: bold;
   font-size: large;
   color: rgba(0, 0, 0, 0.6);
+}
+main .product-section {
+  padding-top: 3rem;
+  background-color: #0a0813;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+main .product-section .product-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+main .product-section .product-image .product {
+  border: 1px solid;
+  height: 90%;
+}
+main .product-section .product-image .product .png {
+  width: 100%;
+}
+main .product-section .product-image .product .product-tittle {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
