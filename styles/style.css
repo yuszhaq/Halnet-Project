@@ -318,8 +318,7 @@ main .project-section .past-projects .project-image img {
   width: 100%;
 }
 main .form-section {
-  margin-top: 5rem;
-  margin-bottom: 10rem;
+  margin: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,4 +357,67 @@ main .form-section form main button {
   font-size: large;
   color: white;
   background-color: #f1662b;
+}
+main .contact-section {
+  background-image: url("/images/contact-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 8rem 0;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .contact-section .contact-container {
+  display: flex;
+  align-items: start;
+  gap: 5rem;
+}
+main .contact-section .contact-container .left-section {
+  width: 15rem;
+}
+main .contact-section .contact-container .left-section button {
+  margin-top: 2rem;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+}
+main .contact-section .contact-container .divider {
+  height: 25rem;
+  margin-right: -3rem;
+  width: 1px;
+  background-color: white;
+}
+main .contact-section .contact-container .right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .contact-section .contact-container .right-section .socials h2 {
+  margin-bottom: 1rem;
+}
+main .contact-section .contact-container .right-section .socials img {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  margin-right: 0.5rem;
+  width: 1rem;
+}
+main .contact-section .contact-container .right-section .horizontal-line {
+  height: 1px;
+  margin-left: -2rem;
+  width: 20rem;
+  background-color: white;
+}
+main .contact-section .contact-container .right-section .contact .contact-icon {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+main .contact-section .contact-container .right-section .contact .contact-icon img {
+  width: 1rem;
 }/*# sourceMappingURL=style.css.map */
