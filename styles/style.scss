@@ -132,7 +132,7 @@ main {
 			justify-content: center;
 			gap: 0.5rem;
 			.about-dash {
-				width: 3rem;
+				width: 2.5rem;
 				height: 0.4rem;
 				background-color: #f1662b;
 			}
@@ -282,6 +282,39 @@ main {
 						padding: 0.5rem;
 						background-color: #fff;
 					}
+				}
+			}
+		}
+	}
+	.project-section {
+		margin-top: 5rem;
+		padding: 3rem;
+		display: flex;
+		flex-direction: column;
+		gap: 4rem;
+		.project-heading {
+			display: flex;
+			color: #4e4c61;
+			justify-content: space-between;
+			align-items: center;
+			.right-side {
+				display: flex;
+				align-items: center;
+				gap: 0.2rem;
+				.project-dash {
+					width: 2.5rem;
+					height: 0.3rem;
+					background-color: #f1662b;
+				}
+			}
+		}
+		.past-projects {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 2rem;
+			.project-image {
+				img {
+					width: 100%;
 				}
 			}
 		}
