@@ -10,15 +10,15 @@ body {
   border: none;
 }
 
-main .hero-section {
+header .hero-section {
   position: relative;
   width: 100%;
 }
-main .hero-section .hero-bg {
+header .hero-section .hero-bg {
   display: block;
   width: 100%;
 }
-main .hero-section nav {
+header .hero-section nav {
   position: absolute;
   top: 2%;
   width: 100%;
@@ -27,18 +27,18 @@ main .hero-section nav {
   align-items: center;
   justify-content: space-around;
 }
-main .hero-section nav .nav-menu {
+header .hero-section nav .nav-menu {
   display: flex;
   gap: 3rem;
 }
-main .hero-section nav .nav-menu a {
+header .hero-section nav .nav-menu a {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
-main .hero-section nav .nav-button button {
+header .hero-section nav .nav-button button {
   padding: 0.5rem;
 }
-main .hero-section .hero-comment {
+header .hero-section .hero-comment {
   position: absolute;
   bottom: 26%;
   left: 14%;
@@ -48,30 +48,31 @@ main .hero-section .hero-comment {
   flex-direction: column;
   gap: 1rem;
 }
-main .hero-section .hero-comment h1 {
+header .hero-section .hero-comment h1 {
   font-size: 3rem;
   font-weight: 500;
 }
-main .hero-section .hero-comment p {
+header .hero-section .hero-comment p {
   width: 40rem;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);
 }
-main .hero-section .hero-comment .hero-buttons {
+header .hero-section .hero-comment .hero-buttons {
   display: flex;
   gap: 1rem;
 }
-main .hero-section .hero-comment .hero-buttons button {
+header .hero-section .hero-comment .hero-buttons button {
   padding: 1rem;
   color: white;
   font-weight: 500;
 }
-main .hero-section .hero-comment .hero-buttons button:nth-child(1) {
+header .hero-section .hero-comment .hero-buttons button:nth-child(1) {
   background-color: #f1662b;
 }
-main .hero-section .hero-comment .hero-buttons button:nth-child(2) {
+header .hero-section .hero-comment .hero-buttons button:nth-child(2) {
   background-color: #191919;
 }
+
 main .partner-section {
   margin-top: 5rem;
   display: flex;
@@ -315,4 +316,46 @@ main .project-section .past-projects {
 }
 main .project-section .past-projects .project-image img {
   width: 100%;
+}
+main .form-section {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .form-section form {
+  width: 45rem;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+main .form-section form header {
+  margin-bottom: 1rem;
+}
+main .form-section form header h2 {
+  margin-bottom: 1rem;
+}
+main .form-section form main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+main .form-section form main input,
+main .form-section form main select,
+main .form-section form main textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+main .form-section form main textarea {
+  grid-column: span 2;
+  height: 8rem;
+}
+main .form-section form main button {
+  grid-column: span 2;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  background-color: #f1662b;
 }/*# sourceMappingURL=style.css.map */

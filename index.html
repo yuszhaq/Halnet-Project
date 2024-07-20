@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <main>
+  <header>
     <div class="hero-section">
       <img class="hero-bg" src="images/hero-section.png" alt="hero-section">
       <nav>
@@ -35,6 +35,8 @@
         </div>
       </div>
     </div>
+  </header>
+  <main>
     <div class="partner-section">
       <h3>Trusted by reputed numbers of companies</h3>
       <div class="patner-logo">
@@ -211,6 +213,33 @@
           <p>NASARAWA</p>
         </div>
       </div>
+    </div>
+    <div class="form-section">
+      <form action="" method="POST">
+        <header>
+          <h2>Request a Quote</h2>
+          <p>Fusce non hendrerit ante. Curabitur in libero neque. Nulla at vestibulum massa, Maecenas tempus,</p>
+        </header>
+        <main>
+          <input id="name" name="name" type="text" placeholder="Name" autocomplete="name" required>
+          <input id="email" name="email" type="text" placeholder="Email" autocomplete="email" required>
+          <input id="tel" name="tel" type="tel" placeholder="Phone number" autocomplete="tel" required>
+          <input id="company" name="company" type="text" placeholder="Company" autocomplete="company" required>
+          <select name="service" id="service">
+            <option value="option1" selected>Services</option>
+          </select>
+          <input id="company-name" name="company-name" type="select" placeholder="Company name"
+            autocomplete="company-name" required>
+          <select name="product" id="product">
+            <option value="option1" selected>Product</option>
+          </select>
+          <input id="quantity" name="quantity" type="text" placeholder="Quantity" autocomplete="quantity" required>
+          <textarea name="details" id="details" placeholder="Additional Details"></textarea>
+          <button>Submit Request</button>
+        </main>
+        <footer>
+        </footer>
+      </form>
     </div>
   </main>
 </body>
