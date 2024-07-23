@@ -11,12 +11,13 @@ body {
 }
 header {
 	.hero-section {
+		background-image: url('/images/hero-section.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 		position: relative;
 		width: 100%;
-		.hero-bg {
-			display: block;
-			width: 100%;
-		}
+		height: 60rem;
 		nav {
 			position: absolute;
 			top: 2%;
@@ -41,7 +42,7 @@ header {
 		}
 		.hero-comment {
 			position: absolute;
-			bottom: 26%;
+			bottom: 16%;
 			left: 14%;
 			width: 45rem;
 			color: white;
