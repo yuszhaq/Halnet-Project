@@ -16,7 +16,7 @@ header .hero-section {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 60rem;
 }
 header .hero-section nav {
@@ -366,7 +366,7 @@ main .contact-section {
   background-repeat: no-repeat;
   color: white;
   height: 40rem;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
