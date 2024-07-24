@@ -16,7 +16,7 @@ header {
 		background-position: center;
 		background-repeat: no-repeat;
 		position: relative;
-		width: 100%;
+		width: 100vw;
 		height: 60rem;
 		nav {
 			position: absolute;
@@ -169,6 +169,7 @@ main {
 		position: relative;
 		padding: 10rem 0;
 		background-color: #0c0a15;
+		width: 100vw;
 		display: grid;
 		place-items: center;
 		grid-template-columns: repeat(2, 1fr);
@@ -370,7 +371,7 @@ main {
 		background-repeat: no-repeat;
 		color: white;
 		height: 40rem;
-		width: 100%;
+		width: 100vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
